@@ -94,14 +94,8 @@
 			children = (
 				1D15A33F1A6B916500E060E8 /* AppDelegate.h */,
 				1D15A3401A6B916500E060E8 /* AppDelegate.m */,
-				1D15A3451A6B916500E060E8 /* ViewController.h */,
-				1D15A3461A6B916500E060E8 /* ViewController.m */,
-				1D15A3641A6B924700E060E8 /* TwoViewController.h */,
-				1D15A3651A6B924700E060E8 /* TwoViewController.m */,
-				1D15A3671A6B965E00E060E8 /* OneWithoutSegueViewController.h */,
-				1D15A3681A6B965E00E060E8 /* OneWithoutSegueViewController.m */,
-				1D15A36A1A6B96AA00E060E8 /* TwoWithoutSegueViewController.h */,
-				1D15A36B1A6B96AA00E060E8 /* TwoWithoutSegueViewController.m */,
+				1D15A36D1A6B99C700E060E8 /* With Segue */,
+				1D15A36E1A6B99D600E060E8 /* Without Segue */,
 				1D15A3481A6B916500E060E8 /* Main.storyboard */,
 				1D15A34B1A6B916500E060E8 /* Images.xcassets */,
 				1D15A34D1A6B916500E060E8 /* LaunchScreen.xib */,
@@ -135,6 +129,28 @@
 				1D15A3591A6B916500E060E8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D15A36D1A6B99C700E060E8 /* With Segue */ = {
+			isa = PBXGroup;
+			children = (
+				1D15A3451A6B916500E060E8 /* ViewController.h */,
+				1D15A3461A6B916500E060E8 /* ViewController.m */,
+				1D15A3641A6B924700E060E8 /* TwoViewController.h */,
+				1D15A3651A6B924700E060E8 /* TwoViewController.m */,
+			);
+			name = "With Segue";
+			sourceTree = "<group>";
+		};
+		1D15A36E1A6B99D600E060E8 /* Without Segue */ = {
+			isa = PBXGroup;
+			children = (
+				1D15A3671A6B965E00E060E8 /* OneWithoutSegueViewController.h */,
+				1D15A3681A6B965E00E060E8 /* OneWithoutSegueViewController.m */,
+				1D15A36A1A6B96AA00E060E8 /* TwoWithoutSegueViewController.h */,
+				1D15A36B1A6B96AA00E060E8 /* TwoWithoutSegueViewController.m */,
+			);
+			name = "Without Segue";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
