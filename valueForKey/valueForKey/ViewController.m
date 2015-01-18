@@ -11,14 +11,22 @@
 @interface ViewController ()
 
 @property (weak, nonatomic) IBOutlet UITextField *textField;
+@property (strong, nonatomic) NSString *receiveData;
 
 @end
 
 @implementation ViewController
 
+@synthesize receiveData;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    self.textField.text = receiveData;
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
