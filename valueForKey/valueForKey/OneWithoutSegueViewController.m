@@ -11,6 +11,7 @@
 @interface OneWithoutSegueViewController ()
 
 @property (weak, nonatomic) IBOutlet UITextField *textField;
+@property (strong, nonatomic) NSString *receiveData;
 @property (strong, nonatomic) UIViewController *page2;
 
 @end
@@ -25,8 +26,15 @@
     page2 = [self.storyboard instantiateViewControllerWithIdentifier:@"page2"];
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    self.textField.text = _receiveData;
+}
+
 - (IBAction)buttonPress:(id)sender {
     [page2 setValue:self.textField.text forKey:@"receiveData"];
+    [page2 setValue:self forKey:@"oneViewController"];
+
     [self.navigationController pushViewController:page2 animated:YES];
 }
 

@@ -8,10 +8,13 @@
 
 #import "TwoWithoutSegueViewController.h"
 
+#import "OneWithoutSegueViewController.h"
+
 @interface TwoWithoutSegueViewController ()
 
 @property (weak, nonatomic) IBOutlet UITextField *textField;
 @property (strong, nonatomic) NSString *receiveData;
+@property (strong, nonatomic) OneWithoutSegueViewController *oneViewController;
 
 @end
 
@@ -23,6 +26,10 @@
     [super viewDidLoad];
     
     self.textField.text = receiveData;
+}
+
+- (IBAction)passvValueBack:(id)sender {
+    [self.oneViewController setValue:self.textField.text forKey:@"receiveData"];
 }
 
 @end
