@@ -16,6 +16,8 @@
 		1D15A34F1A6B916500E060E8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D15A34D1A6B916500E060E8 /* LaunchScreen.xib */; };
 		1D15A35B1A6B916500E060E8 /* valueForKeyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D15A35A1A6B916500E060E8 /* valueForKeyTests.m */; };
 		1D15A3661A6B924700E060E8 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D15A3651A6B924700E060E8 /* TwoViewController.m */; };
+		1D15A3691A6B965E00E060E8 /* OneWithoutSegueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D15A3681A6B965E00E060E8 /* OneWithoutSegueViewController.m */; };
+		1D15A36C1A6B96AA00E060E8 /* TwoWithoutSegueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D15A36B1A6B96AA00E060E8 /* TwoWithoutSegueViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,10 @@
 		1D15A35A1A6B916500E060E8 /* valueForKeyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = valueForKeyTests.m; sourceTree = "<group>"; };
 		1D15A3641A6B924700E060E8 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
 		1D15A3651A6B924700E060E8 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		1D15A3671A6B965E00E060E8 /* OneWithoutSegueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneWithoutSegueViewController.h; sourceTree = "<group>"; };
+		1D15A3681A6B965E00E060E8 /* OneWithoutSegueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneWithoutSegueViewController.m; sourceTree = "<group>"; };
+		1D15A36A1A6B96AA00E060E8 /* TwoWithoutSegueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoWithoutSegueViewController.h; sourceTree = "<group>"; };
+		1D15A36B1A6B96AA00E060E8 /* TwoWithoutSegueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoWithoutSegueViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,10 @@
 				1D15A3461A6B916500E060E8 /* ViewController.m */,
 				1D15A3641A6B924700E060E8 /* TwoViewController.h */,
 				1D15A3651A6B924700E060E8 /* TwoViewController.m */,
+				1D15A3671A6B965E00E060E8 /* OneWithoutSegueViewController.h */,
+				1D15A3681A6B965E00E060E8 /* OneWithoutSegueViewController.m */,
+				1D15A36A1A6B96AA00E060E8 /* TwoWithoutSegueViewController.h */,
+				1D15A36B1A6B96AA00E060E8 /* TwoWithoutSegueViewController.m */,
 				1D15A3481A6B916500E060E8 /* Main.storyboard */,
 				1D15A34B1A6B916500E060E8 /* Images.xcassets */,
 				1D15A34D1A6B916500E060E8 /* LaunchScreen.xib */,
@@ -229,8 +239,10 @@
 			files = (
 				1D15A3411A6B916500E060E8 /* AppDelegate.m in Sources */,
 				1D15A3441A6B916500E060E8 /* valueForKey.xcdatamodeld in Sources */,
+				1D15A3691A6B965E00E060E8 /* OneWithoutSegueViewController.m in Sources */,
 				1D15A3471A6B916500E060E8 /* ViewController.m in Sources */,
 				1D15A3661A6B924700E060E8 /* TwoViewController.m in Sources */,
+				1D15A36C1A6B96AA00E060E8 /* TwoWithoutSegueViewController.m in Sources */,
 				1D15A33E1A6B916500E060E8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
