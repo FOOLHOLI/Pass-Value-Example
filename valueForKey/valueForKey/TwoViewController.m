@@ -8,30 +8,28 @@
 
 #import "TwoViewController.h"
 
+#import "ViewController.h"
+
 @interface TwoViewController ()
+
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+@property (strong, nonatomic) NSString *receiveData;
+@property (weak, nonatomic) ViewController *oneViewController;
 
 @end
 
 @implementation TwoViewController
 
+@synthesize receiveData, oneViewController;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.textField.text = receiveData;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)passDataBack:(id)sender {
+    [self.oneViewController setValue:self.textField.text forKey:@"receiveData"];
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
