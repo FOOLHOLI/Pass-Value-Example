@@ -15,6 +15,7 @@
 		1D15A34C1A6B916500E060E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D15A34B1A6B916500E060E8 /* Images.xcassets */; };
 		1D15A34F1A6B916500E060E8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D15A34D1A6B916500E060E8 /* LaunchScreen.xib */; };
 		1D15A35B1A6B916500E060E8 /* valueForKeyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D15A35A1A6B916500E060E8 /* valueForKeyTests.m */; };
+		1D15A3661A6B924700E060E8 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D15A3651A6B924700E060E8 /* TwoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		1D15A3541A6B916500E060E8 /* valueForKeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = valueForKeyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D15A3591A6B916500E060E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D15A35A1A6B916500E060E8 /* valueForKeyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = valueForKeyTests.m; sourceTree = "<group>"; };
+		1D15A3641A6B924700E060E8 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		1D15A3651A6B924700E060E8 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				1D15A3401A6B916500E060E8 /* AppDelegate.m */,
 				1D15A3451A6B916500E060E8 /* ViewController.h */,
 				1D15A3461A6B916500E060E8 /* ViewController.m */,
+				1D15A3641A6B924700E060E8 /* TwoViewController.h */,
+				1D15A3651A6B924700E060E8 /* TwoViewController.m */,
 				1D15A3481A6B916500E060E8 /* Main.storyboard */,
 				1D15A34B1A6B916500E060E8 /* Images.xcassets */,
 				1D15A34D1A6B916500E060E8 /* LaunchScreen.xib */,
@@ -225,6 +230,7 @@
 				1D15A3411A6B916500E060E8 /* AppDelegate.m in Sources */,
 				1D15A3441A6B916500E060E8 /* valueForKey.xcdatamodeld in Sources */,
 				1D15A3471A6B916500E060E8 /* ViewController.m in Sources */,
+				1D15A3661A6B924700E060E8 /* TwoViewController.m in Sources */,
 				1D15A33E1A6B916500E060E8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
